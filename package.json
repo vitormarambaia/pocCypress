@@ -1,0 +1,26 @@
+{
+  "name": "pocCypress",
+  "version": "1.0.0",
+  "description": "Estudo Cypress testes de integração e E2E",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open": "cypress open",
+    "run": "cypress run --env allure=true,allureResultsPath=cypress/reports"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KelvinGomes/pocCypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KelvinGomes/pocCypress/issues"
+  },
+  "homepage": "https://github.com/KelvinGomes/pocCypress#readme",
+  "dependencies": {
+    "@shelex/cypress-allure-plugin": "^2.26.5",
+    "cypress": "^9.5.1"
+  }
+}
